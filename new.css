@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* h1{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #222831;
+    font-size: 50px;
+} */
+
+body{
+    background-color: #EEEEEE;
+}
+
+/* div{
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+} */
+.page-header{
+    background-color: #EEEEEE;
+    color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+
+.thin-bar{
+    background-color: black;
+    flex: 1;
+    padding: 20px;
+    color: #EEEEEE;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.right-section{
+    background-color: #EEEEEE;
+    flex: 2;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contactbutton{
+ background-color: #5566c2;
+ border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.contactbutton a{
+    text-decoration: none;
+}
+
+.contactbutton:hover{
+    box-shadow: 0 12px 16px 0 rgba(159, 36, 157, 0.24), 0 17px 50px 0 rgba(158, 41, 168, 0.19);
+}
+
+.contactButton:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em #5566c2;
+  }
+  
+  .contactButton:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #5566c2;
+  }
+  
